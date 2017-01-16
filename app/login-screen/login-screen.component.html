@@ -2,13 +2,12 @@
 
     <div class="panel panel-default">
 
-        <div class="panel-body">
-
+        <div class="panel-body">            
             <img id="dsmlogo" src="{{ urlImg }}" class="img-responsive" alt="DSM" width="304" height="236">
             <form>
                 <div class="form-group">
                     
-                    <input type="text" data-mask="999-99-999-9999-9" class="form-control" id="usr" placeholder="Usuário">
+                    <input type="text" value="{{ userCode }}" class="form-control" id="usr" placeholder="Usuário">
                 </div>
                 <div class="form-group">
                     <input type="password" class="form-control" id="pwd" placeholder="Senha">
